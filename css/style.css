@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+
+html {
+  scroll-behavior: smooth;
+} 
+
 body {
   background-color: #252525;
   color: white;
@@ -796,7 +801,7 @@ a {
   border: 0;
   border-radius: 0;
   padding: 7px 12px;
-  background: #8894ff;
+  background: #ffaec9;
 }
 .card-product__imgOverlay li button i,
 .card-product__imgOverlay li button span {
@@ -1104,7 +1109,7 @@ a {
 }
 .button--active {
   background: #fff301;
-  color: #fff;
+  color: #000000;
 }
 .button-contactForm {
   border: 1px solid #fff301 !important;
@@ -4009,7 +4014,7 @@ a {
   color: #999999;
 }
 .footer-area {
-  background: #002347;
+  background: #141414;
   padding: 50px 0px 50px;
 }
 @media (min-width: 1000px) {
@@ -4094,7 +4099,7 @@ a {
   }
 }
 .footer-bottom {
-  background: rgba(0, 35, 71, 0.980392);
+  background: black;
   padding: 32px;
 }
 .footer-bottom .footer-text {
