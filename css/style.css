@@ -1,6 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 
+.mapouter{
+  position:relative;
+  height:400px;
+  width:590px;
+  display: inline-block;
+}
+
+.texto-maps {
+  text-align: center;
+  width: 45%;
+  display: inline-block;
+}
+
+.gmap_canvas{
+  overflow:hidden;height:400px;width:590px
+}
+
+.gmap_canvas iframe{
+  position:relative;z-index:2
+}
+
+.gmap_canvas a{
+  top:0;z-index:0
+}
+
+.bruh {
+  margin-top: 60px;
+}
+
 html {
   scroll-behavior: smooth;
 } 
