@@ -10,8 +10,10 @@
 
 .texto-maps {
   text-align: center;
+  vertical-align: top;
   width: 45%;
   display: inline-block;
+  padding: 15px;
 }
 
 .gmap_canvas{
@@ -29,6 +31,39 @@
 .bruh {
   margin-top: 60px;
 }
+
+@media (max-width: 1199px) {
+  .bruh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .mapouter{
+    position:relative;
+    height:400px;
+    width: 100%;
+  }
+  .texto-maps {
+    margin: auto auto auto auto;
+    text-align: center;
+    vertical-align: center;
+    width: 90%;
+    padding: 15px;
+    display: flexbox;
+  }
+  .gmap_canvas iframe{
+    margin: auto;
+  }
+.gmap_canvas{
+  overflow:hidden;    
+  height:400px;
+  width:100%;
+}
+
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -145,6 +180,8 @@ a {
   padding: 60px 0;
 }
 @media (min-width: 1000px) {
+
+  
   .section-padding {
     padding: 130px 0;
   }
