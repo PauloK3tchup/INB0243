@@ -220,6 +220,10 @@ a {
   color: black !important;
 }
 
+.dropdown-toggle:hover {
+  color: #fff301 !important;
+}
+
 .header_area .navbar .nav .nav-item .nav-link {
   text-transform: capitalize;
   color: white;
