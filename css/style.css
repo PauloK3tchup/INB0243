@@ -8,6 +8,10 @@
   display: inline-block;
 }
 
+.faqTexto h3 {
+  margin-top: 25px;
+}
+
 .texto-maps {
   text-align: center;
   vertical-align: top;
